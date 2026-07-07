@@ -6,6 +6,7 @@ The website provides a sleek user interface for browsing gaming peripherals, lap
 
 ## Live Demo
 
+https://munsari-m.github.io/Project-Mango/
 
 ## Features
 
