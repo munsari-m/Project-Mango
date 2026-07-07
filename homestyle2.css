@@ -1,0 +1,42 @@
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.product-box {
+    animation: float 3s ease-in-out infinite;
+}
+.product-box:hover {
+    animation-play-state: paused;
+}
+
+
+
+
+.product-box:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.product-box:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.product-box:nth-child(3) {
+    animation-delay: 2s;
+}
+
+
+
+
+.shop-button{
+    animation: float 3s ease-in-out infinite;
+
+}
+
+.shop-button:hover {
+    animation-play-state: paused;
+}

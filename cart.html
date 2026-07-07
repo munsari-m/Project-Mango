@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-blur"></div>
+
+    <div class="content-wrapper">
+        
+        <header>
+            <nav class="navbar">
+                <img src="mangonav.jpg" class="logo" alt="Mango Logo">
+
+                <ul class="navlist">
+                    <li><a href="home.html">Home</a></li>                    
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="Accessories.html">Accessories</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>
+            <h2 style="text-align: center; font-size: 50px;">Your Cart</h2>
+        </header>
+
+        <section class="main-content">
+            <div id="cart-container">
+                <!-- Cart items will appear here -->
+            </div>
+            <div style="text-align: center; margin-top: 30px;">
+                <button onclick="checkout()" class="checkout-button">Proceed to Checkout</button>
+            </div>
+        </section>
+        
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html>
