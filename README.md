@@ -1,13 +1,13 @@
-#Project Mango
+# Project Mango
 
 Welcome to Project Mango, a clean, modern, and smooth front-end e-commerce website designed for gamers and students. This project was developed as part of our ICT Lab coursework.
 
 The website provides a sleek user interface for browsing gaming peripherals, laptops, and accessories, heavily inspired by the clean and minimalist design language of major tech brands like Apple.
 
-##Live Demo
+## Live Demo
 
 
-##Features
+## Features
 
 Modern UI/UX: A minimalist design with a constant, blurred background that persists smoothly while scrolling.
 
@@ -27,30 +27,35 @@ Support: Includes direct mailto links, phone contact, and social media integrati
 
 Cart: Displays selected items and a "Proceed to Checkout" alert system.
 
-##Technologies Used
+## Technologies Used
 
 This project proves that you don't need a massive framework to build something beautiful. It was built strictly using core web technologies:
 
-HTML5: For the semantic structure of the 5 webpages (<section>, <article>, <div>, etc.).
+HTML5: For the semantic structure of the 5 webpages (section, article, div, etc.).
 
 CSS3: For styling, padding, borders, flexbox/grid layouts, and sleek hover animations.
 
 JavaScript: For DOM manipulation, handling "Add to Cart" button clicks, alerting on checkout, and managing Local Storage.
 
-##Project Structure
+## Project Structure
 
-project-mango/
-│
 ├── index.html          # The Home page with featured flagship items
+
 ├── store.html          # The main store catalog for laptops/keyboards/mice
+
 ├── accessories.html    # Secondary catalog for tech accessories
+
 ├── support.html        # Contact and social media links
+
 ├── cart.html           # Shopping cart interface
+
 ├── style.css           # Global stylesheet for all pages
+
 ├── script.js           # Logic for cart management and interactions
+
 └── images/             # Directory containing all product and UI images
 
 
-##Future Scope
+## Future Scope
 
 Currently, Project Mango is a front-end showcase. Future optimizations could include integrating a backend database for real product inventory management and implementing a secure, functional payment gateway.
